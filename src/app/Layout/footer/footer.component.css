@@ -1,0 +1,118 @@
+.bg_center {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .comman_heading span{
+    opacity: 1;
+  }
+  .text-white.big_heading span{
+    color: #6ef4d1 !important;
+  }
+  .big_heading span{
+    color: #16959c;
+  }
+  .home_banner {
+    min-height: 90vh;
+  }
+  .aboutHome {
+    margin-top: -80px;
+  }
+  .testimonial-slider .swiper-slide{
+        flex-direction: column;
+    margin: 5px 10px;
+    padding: 20px;
+  }
+  .testimonial-slider{
+  height: 540px;
+  }
+  .testimonial-slider .swiper-slide-active {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  .from_btn_wrapr.signUp {
+    width: 230px;
+    margin: 0px auto;
+  }
+  
+  .basicInfo{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .basicInfo span{
+  font-weight: 500;
+  font-size: 12px;
+  }
+  
+  .loginpage-list li{
+  position: relative;
+  font-size: 13px;
+  line-height: 34px;
+  padding-left: 35px;
+  }
+  
+  .loginHeading h5{
+  font-weight: 300;
+  font-size: 29px;
+  }
+  
+  .lineHeding{
+  position: relative;
+  padding-bottom: 18px;
+     margin-bottom: 40px;
+  }
+  
+  .lineHeding:after{
+     content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+        left: 0;
+  }
+  
+  .loginHeading h5 b{
+   font-weight: 700;
+  }
+  
+  
+  .loginpage-list li:before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    left: 0;
+    top: 8px
+  }
+  
+  .loginpage-list li:after {
+    position: absolute;
+    content: '';
+   top: 8px;
+    left: 6px;
+    width: 8px;
+    height: 13px;
+    border-top: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 2px solid #084060;
+    border-bottom: 3px solid #084060;
+    -webkit-transform: rotateZ(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotateZ(50deg);
+  }
+  
+  .login_form .lineHeding:after{
+   background: linear-gradient(90deg, var(--primaryClr) 40%, var(--secondaryClr) 60%);
+  }
+  
+  .login_form h2{
+  font-size: 26px;
+  letter-spacing: 2px
+  }
+  

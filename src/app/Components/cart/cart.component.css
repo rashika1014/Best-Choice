@@ -51,6 +51,13 @@
 .pagination {
     margin-top: 20px;
 }
+.input-product {
+    width: 15%;
+    text-align: center;
+}
+.toast-bootstrap-compatibility-fix {
+    opacity:1;
+  }
 footer {
     background: #343a40;
     padding: 40px;

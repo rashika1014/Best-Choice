@@ -1,5 +1,72 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "price": "100.00",
+      "quantity": 1,
+      "image": "http://truth-events.com/wp-content/uploads/2019/09/dummy.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "price": "250.00",
+      "quantity": 1,
+      "image": "http://truth-events.com/wp-content/uploads/2019/09/dummy.jpg"
+    },
+    {
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "obj": {
+        "quantity": 1
+      },
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "name": "",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "name": "",
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "name": "",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "quantity": 1,
+      "id": 11
+    },
+    {
+      "quantity": 1,
+      "id": 12
+    },
+    {
+      "quantity": 1,
+      "id": 13
+    },
+    {
+      "quantity": 1,
+      "id": 14
+    }
+  ],
   "posts": [
     {
       "id": 1,

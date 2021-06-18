@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {
-        this.loadCartItems();
+    this.loadCartItems();
   }
 
   ngDoCheck() {

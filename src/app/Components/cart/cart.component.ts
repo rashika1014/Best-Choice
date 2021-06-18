@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { CartItem } from 'src/app/models/cart-item';
 import { ApiService } from 'src/app/Services/api.service';
 
 @Component({
@@ -18,7 +17,7 @@ export class CartComponent implements OnInit {
   }
 
   loadCartItems() {
-    this.api.getCartItems().subscribe((items: CartItem[]) => {
+    this.api.getCartItems().subscribe((items: []) => {
       this.cartItems = items;
       this.calcCartTotal();
     })
